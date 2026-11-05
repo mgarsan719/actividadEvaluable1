@@ -57,7 +57,6 @@ function disparar() {
 
         cuadro_elegido = document.getElementById("cuadro_tablero" + filaIntroducida + "-" + columnaIntroducida);
 
-
         if (cuadro_elegido.classList.contains("disparado")) {
             window.alert(`No se puede volver a disparar sobre una misma casilla`);
         }
